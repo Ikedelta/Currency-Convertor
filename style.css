@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body{
+    background-image: url(Asset/Images/moneybg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background: transparent;
+    backdrop-filter: blur(30px);
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    background: transparent;
+    margin: 10px 0;
+    padding: 15px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(8, 1, 49);
+    outline: none;
+}
+
+input:active{
+    background-color: transparent;
+}
+
+input::placeholder{
+    color: black;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4c87af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
